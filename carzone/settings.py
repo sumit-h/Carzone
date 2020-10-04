@@ -34,7 +34,7 @@ LOGIN_REDIRECT_URL = 'dashboard'
 INSTALLED_APPS = [
     'cars.apps.CarsConfig',
     'accounts.apps.AccountsConfig',
-
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -152,3 +152,10 @@ messages.ERROR:'danger',
 }
 
 SITE_ID = 1;
+
+# Email sending
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587    #for gmail
+EMAIL_HOST_USER = "hsumit166@gmail.com"
+EMAIL_HOST_PASSWORD = "sumitisking@1"
+EMAIL_USE_TLS = True
