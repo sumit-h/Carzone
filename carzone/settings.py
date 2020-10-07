@@ -27,7 +27,7 @@ SECRET_KEY = '(c5$lyre94#b3^33r%(7$$e2du&37g*=tly_ctq8stm0-2ah+x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quiet-temple-74612.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
