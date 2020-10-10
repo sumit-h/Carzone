@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '(c5$lyre94#b3^33r%(7$$e2du&37g*=tly_ctq8stm0-2ah+x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['quiet-temple-74612.herokuapp.com']
 
